@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const api = await axios.get(`${url}`, {
+      const api = await axios.get(`${url}/home`, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -25,6 +25,7 @@ const App = () => {
     };
     fetchData();
   }, [reload]);
+  console.log("VITE_API_URL:", import.meta.env.VITE_API_URL);
 
   const handleModal = () => {
     setShowmodel(!showmodel);
