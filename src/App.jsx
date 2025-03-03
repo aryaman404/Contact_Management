@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const api = await axios.get(`${url}/`, {
+      const api = await axios.get(`${url}/home`, {
         headers: {
           "Content-Type": "application/json",
         },
