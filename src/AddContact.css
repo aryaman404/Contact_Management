@@ -1,0 +1,62 @@
+/* Default styles apply to larger screens */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 90% !important;
+      margin: auto;
+    }
+  
+    /* Adjust modal size */
+    .modal-dialog {
+      max-width: 80% !important;
+    }
+  
+    /* Ensure modal content is not too large */
+    .modal-content {
+      padding: 15px !important;
+    }
+  
+    /* Adjust input fields */
+    .form-control {
+      font-size: 14px !important;
+      padding: 10px !important;
+    }
+  
+    /* Ensure buttons take full width */
+    .btn {
+      width: 100% !important;
+      margin-bottom: 10px !important;
+    }
+  }
+  
+  /* Extra small screens (phones) */
+  @media screen and (max-width: 480px) {
+    .modal-dialog {
+      max-width: 90% !important;
+    }
+  
+    .modal-title {
+      font-size: 1rem !important;
+      text-align: center !important;
+    }
+  
+    .form-label {
+      font-size: 14px !important;
+    }
+  
+    .form-control {
+      font-size: 12px !important;
+    }
+  
+    /* Buttons stacked vertically */
+    .modal-title .btn {
+      display: block;
+      width: 100% !important;
+    }
+  
+    .btn-primary {
+      margin-bottom: 10px !important;
+    }
+  }
+  

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast, Flip } from "react-toastify";
+import "./AddContact.css";
 
 const AddContact = ({
   handleModal,

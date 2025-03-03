@@ -1,0 +1,48 @@
+/* Default styles apply to larger screens */
+
+/* Adjust container width for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 90vw !important;
+      margin: auto;
+    }
+    
+    .bg-black {
+      flex-direction: column !important;
+      text-align: center;
+      padding: 15px !important;
+    }
+  
+    /* Reduce font size for better readability */
+    h1, h2, h3 {
+      font-size: 1rem !important;
+    }
+  
+    /* Adjust spacing and alignment for buttons */
+    .btn {
+      width: 100% !important;
+      margin-bottom: 10px !important;
+    }
+  }
+  
+  /* Extra small screens (phones) */
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 95vw !important;
+    }
+  
+    /* Reduce padding and adjust layout for smaller devices */
+    .bg-black {
+      padding: 10px !important;
+    }
+  
+    h1, h2, h3 {
+      font-size: 0.9rem !important;
+    }
+  
+    .btn {
+      padding: 8px !important;
+      font-size: 0.8rem !important;
+    }
+  }
+  

@@ -2,6 +2,7 @@ import axios from "axios";
 import Contacts from "./Contacts";
 import AddContact from "./AddContact";
 import { useEffect, useState } from "react";
+import "./App.css";
 
 import { ToastContainer, toast } from "react-toastify";
 

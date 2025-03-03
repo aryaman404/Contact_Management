@@ -1,0 +1,73 @@
+/* Default styles for larger screens */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+      width: 90% !important;
+      margin: auto;
+    }
+  
+    /* Adjust contact card layout */
+    .bg-black {
+      flex-direction: column !important;
+      text-align: center !important;
+      padding: 15px !important;
+    }
+  
+    /* Reduce font sizes */
+    .bg-black h1,
+    .bg-black h2,
+    .bg-black h3 {
+      font-size: 18px !important;
+    }
+  
+    /* Adjust icon size */
+    .material-symbols-outlined {
+      font-size: 24px !important;
+      padding: 5px !important;
+    }
+  
+    /* Ensure buttons are full-width */
+    .btn {
+      width: 100% !important;
+    }
+  
+    /* Stack buttons vertically */
+    .bg-black div:last-child {
+      flex-direction: row !important;
+      gap: 5px !important;
+    }
+  }
+  
+  /* Extra small screens (phones) */
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 100% !important;
+    }
+  
+    .bg-black {
+      flex-direction: column !important;
+      padding: 10px !important;
+    }
+  
+    .bg-black h1,
+    .bg-black h2,
+    .bg-black h3 {
+      font-size: 16px !important;
+    }
+  
+    .material-symbols-outlined {
+      font-size: 20px !important;
+    }
+  
+    .btn {
+      width: 100% !important;
+      margin-bottom: 5px !important;
+    }
+  
+    /* Ensure buttons don't take too much space */
+    .bg-black div:last-child {
+      flex-direction: column !important;
+    }
+  }
+  

@@ -1,5 +1,6 @@
 import axios from "axios";
 import { ToastContainer, toast, Flip } from "react-toastify";
+import "./Contact.css";
 
 const Contacts = ({ contacts, url, reload, setreload, setId, handleModal }) => {
   const deleteContact = async (id) => {
