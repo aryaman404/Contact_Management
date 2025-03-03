@@ -3,7 +3,7 @@ import { ToastContainer, toast, Flip } from "react-toastify";
 
 const Contacts = ({ contacts, url, reload, setreload, setId, handleModal }) => {
   const deleteContact = async (id) => {
-    const api = await axios.delete(`${url}/${id}`, {
+    const api = await axios.delete(`${url}/home/${id}`, {
       headers: {
         "Content-Type": "application/json",
       },

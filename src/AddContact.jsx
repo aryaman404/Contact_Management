@@ -35,7 +35,7 @@ const AddContact = ({
     if (id) {
       // send data to api
       const api = await axios.put(
-        `${url}/${id}`,
+        `${url}/home/${id}`,
         { name, gmail, phone },
         {
           headers: {
@@ -57,7 +57,7 @@ const AddContact = ({
     } else {
       // send data to api
       const api = await axios.post(
-        `${url}/`,
+        `${url}/home`,
         { name, gmail, phone },
         {
           headers: {
