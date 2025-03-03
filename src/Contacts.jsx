@@ -67,7 +67,7 @@ const Contacts = ({ contacts, url, reload, setreload, setId, handleModal }) => {
                     padding: "10px",
                   }}
                 >
-                  phone_in_talk
+                  mail
                 </span>
                 {data.gmail}
               </h2>
@@ -83,7 +83,7 @@ const Contacts = ({ contacts, url, reload, setreload, setId, handleModal }) => {
                     padding: "10px",
                   }}
                 >
-                  mail
+                  phone_in_talk
                 </span>{" "}
                 {data.phone}
               </h3>
